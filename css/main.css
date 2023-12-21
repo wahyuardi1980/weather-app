@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto+Condensed:wght@700&family=Viga&display=swap");
+body {
+  background-color: #092635;
+  font-family: "Poppins";
+}
+
+.kotak {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  width: 500px;
+  padding: 20px;
+  background-color: #9ec8b9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+#app .box {
+  display: inline-block;
+  color: #092635;
+}
+
+#app {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#app .form .keyword {
+  padding: 5px 10px;
+  border-radius: 18px;
+  border: none;
+  width: 300px;
+  height: 25px;
+  margin-top: 50px;
+}
+
+#app .form .btn-klik {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(22, 194, 233);
+  color: #fff;
+  border-radius: 7px;
+  margin-left: 10px;
+  transition: 0.2s;
+}
+
+#app .form .btn-klik:hover {
+  opacity: 0.8;
+}
+
+#app .form .btn-klik:focus {
+  outline: rgb(22, 194, 233) solid 2px;
+  outline-offset: 2px;
+}
+
+#container {
+  margin-top: 20px;
+}
